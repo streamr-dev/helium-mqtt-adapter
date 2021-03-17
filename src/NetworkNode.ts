@@ -5,8 +5,8 @@ const StreamrClient = require('streamr-client');
 
 export class NetworkNode {
 
-	static WS_URL = 'ws://localhost/api/v1/ws';
-	static REST_URL = 'http://localhost/api/v1';
+	static WS_URL = 'wss://streamr.network/api/v1/ws';
+	static REST_URL = 'https://streamr.network/api/v1';
 
 	streamrClient: any;
 	publishStreams: Map<string,any> = new Map();
