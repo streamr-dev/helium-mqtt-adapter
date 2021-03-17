@@ -1,4 +1,4 @@
-# trusted-mqtt-adapter
+# helium-mqtt-adapter
 
 ## Install
 
