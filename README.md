@@ -1,5 +1,10 @@
 # helium-mqtt-adapter
 
+`helium-mqtt-adapter` stores a private key that is used to authenticate to Streamr
+Network. This is a subject to change in the near future when integration can be
+accomplished by simply running a Streamr Node instead of the
+`helium-mqtt-adapter`.
+
 ## Install
 
 Prerequisites: Node `v14.x` and npm.
