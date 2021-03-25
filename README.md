@@ -1,6 +1,6 @@
 # helium-mqtt-adapter
 
-`helium-mqtt-adapter` is a service that bridges incoming MQTT data to the Streamr Network.
+`helium-mqtt-adapter` is a service that bridges incoming MQTT data to the Streamr Network. It listens for incoming messages on the MQTT port (tcp port 1883) by default.
 
 In the future, it's possible to simply run a Streamr Broker node, which ships with an MQTT interface. But for the time being, use this adapter to connect data from Helium to Streamr.
 
