@@ -16,8 +16,7 @@ export class AdapterServer extends MqttServer {
 	}
 
 	onMessageReceived(topic: string, payload: string) {
-		const { message, metadata } = JSON.parse(payload);
-		this.networkNode.publish(this.getStreamId(topic), message, metadata);
+		this.networkNode.publish(this.getStreamId(topic), JSON.parse(payload), undefined);
 	}
 
 	onSubscribe(topic: string) {
